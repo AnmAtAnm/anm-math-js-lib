@@ -1,5 +1,6 @@
 {
   "name": "anm-math",
+  ",description": "Library of simple math functions.",
   "version": "0.1.0",
-  "description": "Library of simple math functions."
+  "main": "anm-math.js"
 }
