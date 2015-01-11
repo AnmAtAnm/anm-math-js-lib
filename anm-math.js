@@ -1,5 +1,5 @@
-# To use via node.js...
-# var Anm = require('Anm-math')(Anm || {});
+// To use via node.js...
+// var Anm = require('Anm-math')(Anm || {});
 
 
 var __Anm_math_constructor = (function(Anm) {
