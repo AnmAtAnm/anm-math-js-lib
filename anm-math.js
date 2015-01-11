@@ -26,7 +26,7 @@ var __Anm_math_constructor = (function(Anm) {
   }
 });
 
-if (module && typeof modules.exports !== 'undefined') {
+if (module && typeof module.exports !== 'undefined') {
   // Loaded as a node module
   module.exports = __Anm_math_constructor;
 } else {
