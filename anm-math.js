@@ -2,7 +2,7 @@
 // var Anm = require('Anm-math')(Anm || {});
 
 
-var __Anm_math_constructor = (function(Anm) {
+var __Anm_math_decorator = (function(Anm) {
   Anm.TAU = Anm.TWO_PI = Math.PI * 2;
 
   Anm.interpolate = function(start, end, ratio) {
@@ -24,12 +24,14 @@ var __Anm_math_constructor = (function(Anm) {
     }
     return radians % Anm.TAU;
   }
+
+  return Anm;
 });
 
 if (module && typeof module.exports !== 'undefined') {
   // Loaded as a node module
-  module.exports = __Anm_math_constructor;
+  module.exports = __Anm_math_decorator;
 } else {
-  Anm = __Anm_math_constructor(Anm || {});
+  Anm = __Anm_math_decorator(Anm || {});
 }
 
